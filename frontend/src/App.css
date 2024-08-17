@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.mainupload{
+  background-image: url('https://www.tripsavvy.com/thmb/S2HdI_qKPlhTaAPD5ufICC9lJ_E=/3000x2040/filters:fill(auto,1)/GettyImages-472768194-5d167ebc1a634312b25a98ca5d6613f9.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;  
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.mainphotodetails{
+  background-image: url('https://thumbs.dreamstime.com/b/art-museum-blank-gallery-walls-background-space-nice-scene-each-wall-painted-off-white-color-floors-hardwood-111365775.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;  
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
+}
+.gallery-page,
+.photo-details-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.upload-page{
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+input[type="file"],
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.photo-card {
+  text-align: center;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.gallery-page h1{
+  position: relative;
+  left: 300px;
+}
+.photo-details-page img {
+  max-width: 100%;
+  height: 70vh;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+/* css for welcome page */
+.mainpage {
+  background-image: url('https://www.photo.gallery/content/1.index/x3-photo-gallery-website.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;  
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+.welcome-page {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.welcome-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-page p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.welcome-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.welcome-buttons button:hover {
+  background-color: #007bff;
+  color: white;
+}
