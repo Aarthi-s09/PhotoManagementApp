@@ -5,7 +5,7 @@ function GalleryPage({ photos, setPhotos }) {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const response = await fetch('http://localhost:5000/photos');
+        const response = await fetch('https://photobackend-hhgk.onrender.com/photos');
         const data = await response.json();
         setPhotos(data);
       } catch (error) {
